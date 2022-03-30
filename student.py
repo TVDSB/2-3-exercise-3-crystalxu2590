@@ -4,7 +4,7 @@ def main():
     if usersnumber % 3 == 0 and usersnumber % 5 == 0:
         print("fizzbuzz")
     elif usersnumber % 3 == 0:
-        print("buzz")
+        print("fizz")
     elif usersnumber % 5 == 0:
         print("buzz")
     else:
